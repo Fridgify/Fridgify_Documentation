@@ -39,6 +39,7 @@ This document is going to be maintained constantly.
          3. [Create Fridge](./planning/api-doc/api-workflows/create_fridge.md)
          4. [Fridge Content](./planning/api-doc/api-workflows/fridge_content.md)
          5. [Get Fridges](./planning/api-doc/api-workflows/get_fridges.md)
+         6. [Fridge Roles](./planning/api-doc/api-workflows/role_management.md)
    2. **Database**
       1. [Database Model](./planning/database/Fridgify_DBModel.png)
       2. [Table View](./planning/database/Fridgify_Tables.png)
