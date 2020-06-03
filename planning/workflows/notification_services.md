@@ -35,7 +35,35 @@ In future use cases, clients should be able to unregister. Therefore the backend
 
 ## Hopper Notifications
 
-Still in need of implementation.
+If users are interested in using the **Hopper** service, they first of all have to subscribe. Make the following call to retrieve a subscription link.
+```
+GET /messaging/subscribe?service=2
+Headers:
+  Authorization: [API-Token]
+Required: service parameter [1 - Fridgify, 2 - Hopper]
+```
+You will retrieve a body, which could look like the following:
+```json
+{
+    "subscribe_url": "https://example.com"
+}
+```
+Users have to open up the subscription url and follow the process. After completing the subscription the user will be redirected to a deep link, which could look like the following:
+```
+https://api-dev.fridgify.com/?user_id=6&status=success&id=5ed7d0fa04fd3cde8f3f6b57
+```
+Extract the *id* parameter and use this to register the messaging service in **Fridgify**.
+```
+POST /messaging/register
+Headers:
+  Authorization: [API-Token]
+Body:
+  {
+      "client_token": [hopper id (token)],
+      "service": 2
+  }
+```
+If this is done successfully, users are able to receive notifications in **Hopper**.
 
 ## Types of Notifications
 
