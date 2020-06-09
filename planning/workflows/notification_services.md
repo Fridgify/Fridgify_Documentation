@@ -63,7 +63,6 @@ Body:
       "service": 2
   }
 ```
-Hint: I mean **service** as in -> Dienst. Instead of sevice as in food. :+1:
 If this is done successfully, users are able to receive notifications in **Hopper**.
 
 ## Types of Notifications
