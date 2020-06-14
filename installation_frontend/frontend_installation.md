@@ -26,9 +26,7 @@ Building from scratch requires a couple more steps.
     3. Go to the pubspec.yaml file and run pub get and pub upgrade (The IDE should give you the option if not open a terminal and move into the directory and run `flutter pub get`)
     4. If you want to connect your backend to the application go to assets/cfg/app_settings.json and change the host URL
 
-3. Run the project
-
-4. Build the project
+3. Build the project
 
     1. Run `flutter test` in your project directory to confirm everything is running
     2. Sign your application as shown [here](https://flutter.dev/docs/deployment/android#signing-the-app)
