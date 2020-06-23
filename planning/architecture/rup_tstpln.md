@@ -24,20 +24,20 @@ This document is meant for internal use primarily.
 ### 1.5	 References
 | Reference        | 
 | ------------- |
-| [SAD](sad.md) | 
-| [Function Points](../analysis/fpa.md) |
-| [Manage Account](./use_cases/account/manageAccountUC.md) |
-| [Login](./use_cases/authentication/login/login.md) |
-| [Register](./use_cases/authentication/register/register.md) |
-| [Create Fridge](./use_cases/fridge_ucs/createFridge/createFridgeUseCase.md) |
-| [Add Content](./use_cases/fridge_ucs/fridgeContent/addContent/addContentUseCase.md) |
-| [Change Content Volume](./use_cases/fridge_ucs/fridgeContent/changeContentVolume/changeContentVolume.md) |
-| [Get Content](./use_cases/fridge_ucs/fridgeContent/getContent/getFridgeContentUseCase.md) |
-| [Remove Content](./use_cases/fridge_ucs/fridgeContent/removeContent/removeContentUseCase.md) |
-| [Get Fridges](./use_cases/fridge_ucs/getFridges/getFridgesUseCase.md) |
-| [Join Fridge](./use_cases/fridge_ucs/joinFridge/joinFridgeUseCase.md) |
-| [Fridge User Management](./use_cases/fridge_ucs/management/ManageFridgeUsersUC.md) |
-| [Remove Fridge](./use_cases/fridge_ucs/removeFridge/deleteFridgeUseCase.md) |   
+| [SAD](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md) | 
+| [Function Points](https://github.com/Fridgify/Fridgify_Documentation/tree/master/planning/analysis) |
+| [Manage Account](https://github.com/Fridgify/Fridgify_Documentation/tree/master/use_cases/account/manageAccountUC.md) |
+| [Login](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/authentication/login/login.md) |
+| [Register](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/authentication/register/register.md) |
+| [Create Fridge](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/createFridge/createFridgeUseCase.md) |
+| [Add Content](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/fridgeContent/addContent/addContentUseCase.md) |
+| [Change Content Volume](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/fridgeContent/changeContentVolume/changeContentVolume.md) |
+| [Get Content](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/fridgeContent/getContent/getFridgeContentUseCase.md) |
+| [Remove Content](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/fridgeContent/removeContent/removeContentUseCase.md) |
+| [Get Fridges](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/getFridges/getFridgesUseCase.md) |
+| [Join Fridge](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/joinFridge/joinFridgeUseCase.md) |
+| [Fridge User Management](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/management/ManageFridgeUsersUC.md) |
+| [Remove Fridge](https://github.com/Fridgify/Fridgify_Documentation/tree/master//use_cases/fridge_ucs/removeFridge/deleteFridgeUseCase.md) |   
             
 ## 2.	Evaluation Mission and Test Motivation
 ### 2.1	Background
@@ -69,6 +69,9 @@ Stress Testing the application and its servers.
 Simulating cyber attacks is currently not part of the test plan.
 
 ## 5.	Test Approach
+
+General blog post about [testing](https://blog.fridgify.com/phase-2-week-4-testing-and-badges/).
+
 ### 5.1 Initital Test-Idea Catalogs and Other Reference Sources
 **n/a**
 ### 5.2	Testing Techniques and Types
@@ -82,7 +85,7 @@ Simulating cyber attacks is currently not part of the test plan.
 |Success Criteria	| expected responses, passing tests |
 |Special Considerations	|     -          |
 
-#### 5.2.2 FLutter Frontend Testing
+#### 5.2.2 Flutter Frontend Testing
 || |
 |---|---|
 |Technique Objective  	| Every interaction with the frontend should function as intended. |
@@ -96,7 +99,7 @@ Simulating cyber attacks is currently not part of the test plan.
 **n/a**
 
 #### 5.2.4 User Interface Testing
-**n/a**
+Updated version of the [testing blog post](https://blog.fridgify.com/phase-2-week-4-testing-and-badges/)
 
 #### 5.2.5 Performance Profiling 
 **n/a**
@@ -120,7 +123,7 @@ Simulating cyber attacks is currently not part of the test plan.
 **n/a**
 
 #### 5.2.12	Installation Testing
-**n/a**
+Test was performed by hopper. [Blog post](https://blog.fridgify.com/phase-2-week-9-installation/) for the installation.
 
 ## 6.	Entry and Exit Criteria
 ### 6.1	Test Plan
