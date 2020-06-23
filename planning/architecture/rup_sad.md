@@ -7,27 +7,27 @@
 | - | - | - | -|
 
 ## Table of Contents
-1. [Introduction](#introduction)
-    1. [Purpose](#purpose)
-    2. [Scope](#scope)
-    3. [Definitions, Acronyms and Abbreviations](#definitions-acronyms-and-abbreviations)
-    4. [References](#references)
-    5. [Overview](#overview)
-2. [Architectural Representation](#architectural-representation)
-3. [Architectural Goals and Constraints](#architectural-goals-and-constraints)
-4. [Use-Case View](#use-case-view)
-    1. [Use-Case Realizations](#use-case-realizations)
-5. [Logical View](#logical-view)
-    1. [Overview](#overview)
-    2. [Architecturally Significant Design Packages](#architecturally-significant-design-packages)
-6. [Process View](#process-view)
-7. [Deployment View](#deployment-view)
-8. [Implementation View](#implementation-view)
-    1. [Overview](#overview)
-    2. [Layers](#layers)
-9. [Data View](#data-view)
-10. [Size and Performance](#size-and-performance)
-11. [Quality](#quality)
+- [The Cool Company](#the-cool-company)
+- [**Fridgify** <br/>Software Architecture Document <br/>Version 1.1](#fridgify-brsoftware-architecture-document-brversion-11)
+- [Table of Contents](#table-of-contents)
+- [1 Introduction](#1-introduction)
+  - [1.1 Purpose](#11-purpose)
+  - [1.2 Scope](#12-scope)
+  - [1.3 Definitions, Acronyms and Abbreviations](#13-definitions-acronyms-and-abbreviations)
+  - [1.4 References](#14-references)
+  - [1.5 Overview](#15-overview)
+- [2 Architectural Representation](#2-architectural-representation)
+- [3 Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
+- [4 Use-Case View](#4-use-case-view)
+  - [4.1 Use-Case Realizations](#41-use-case-realizations)
+- [5 Logical View](#5-logical-view)
+- [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
+- [6 Process View](#6-process-view)
+- [7 Deployment View](#7-deployment-view)
+- [8 Implementation View](#8-implementation-view)
+- [9 Data View](#9-data-view)
+- [10 Size and Performance](#10-size-and-performance)
+- [11 Quality/Metrics](#11-qualitymetrics)
 
 ## 1 Introduction
 ### 1.1 Purpose
@@ -69,7 +69,7 @@ Our frontend is developed in Flutter, which allows an easy way to distribute our
 Backend and frontend are being developed seperately, allowing them to live in a *separate eco-system* and being independent from one another.
 
 ## 4 Use-Case View
-![Overall Use Case Diagram](../management/overall_ucd.png)
+![Overall Use Case Diagram](https://github.com/Fridgify/Fridgify_Documentation/blob/master/use_cases/overall_ucd_v2.png)
 
 ### 4.1 Use-Case Realizations
 * [Use Case - Register](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/uc/authentication/register.md)
@@ -112,4 +112,4 @@ n/a
 We are using TeamCity as Continuous Integration tool to ensure a high quality of code and automize the deployment process. Whenever there is a new change in the **develop** branch, tests are automatically run and tested. If the tests run through, they are taken *live* to the development server.\
 Whenever there is a new change in the **master** branch, a new docker image is being created on Docker Hub, where tests are also been run. After a successful build, the changes are taken live to the production server.\
 Each development or production change should fulfill the following requirements:
-* Test Coverage: Fridgify aims for at least **90 percent** code coverage
+* Test Coverage: Fridgify aims for at least **80 percent** code coverage
