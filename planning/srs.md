@@ -1,54 +1,59 @@
 ## The Cool Company 
-## **Fridgify** <br/>Software Requirements Specification <br/> For Fridge Content Tracking <br/> Version 1.1
+## **Fridgify** <br/>Software Requirements Specification <br/> For Fridge Content Tracking <br/> Version 1.3
 
 | **Date** | **Version** | **Description** | **Author** |
 | -------- | ----------- | --------------- | ---------- |
 | 19.10.19 | 1.0 | Filling all information | Duc Vo Ngoc |
 | 20.10.19 | 1.1 | Finalizing and filling in missing information | Duc Vo Ngoc |
 | 28.11.19 | 1.2 | Add Use Cases to SRS | Duc Vo Ngoc |
-| - | - | - | -|
+| 23.06.20 | 1.3 | Update links, Update requirements | Joschua Götz |
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-    1. [Purpose](#purpose)
-        1. [Scope](#scope) 
-        2. [Definitions, Acronyms, and Abbreviations](#definitions-acronyms-and-abbreviations)
-        3. [References](#references)
-        4. [Overview](#overview)
-2. [Overall Description](#overall-description)
-3. [Specific Requirements](#specific-requirements)
-    1. [Functionality](#functionality)
-        1. [User Interface](#user-interface)
-        2. [Scanning](#scanning)
-        3. [REST API](#rest-api)
-        4. [Notification Service](#notification-service)
-    2. [Usability](#usability)
-        1. [Ease of Use](#ease-of-use)
-        2. [Fridges](#fridge-management)
-    3. [Reliability](#reliability)
-        1. [Code Coverage](#code-coverage)
-        2. [Server Reliability](#server-reliability)
-    4. [Performance](#performance)
-        1. [Registering Items](#registering-items)
-        2. [Unregistering Items](#unregistering-items)
-    5. [Supportability](#supportability)
-        1. [Coding Standards](#coding-standards)
-        2. [Coding Conventions](#coding-conventions)
-    6. [Design Constraints](#design-constraints)
-        1. [MVC](#mvc)
-        2. [Programming Languages](#programming-languages)
-    7. [On-line User Documentation and Help System Requirements](#on-line-user-documentation-and-help-system-requirements)
-    8. [Purchased Components](#purchased-components)
-    9. [Interfaces](#interfaces)
-        1. [User Interfaces](#user-interfaces)
-        2. [Hardware Interfaces](#hardware-interfaces)
-        3. [Software Interfaces](#software-interfaces)
-        4. [Communications Interfaces](#communications-interfaces) 
-    10. [Licensing Requirements](#licensing-requirements)
-    11. [Legal, Copyright, and Other Notices](#legal-copyright-and-other-notices)
-    12. [Applicable Standards](#applicable-standards)
-4. [Supporting Information](#supporting-information)
+- [Software Requirements Specification](#software-requirements-specification)
+  - [Introduction](#introduction)
+    - [**Purpose**](#purpose)
+    - [**Scope**](#scope)
+    - [**Definitions, Acronyms, and Abbreviations**](#definitions-acronyms-and-abbreviations)
+    - [**References**](#references)
+    - [**Overview**](#overview)
+  - [Overall Description](#overall-description)
+    - [**Product Perspective**](#product-perspective)
+    - [**Product Functions**](#product-functions)
+    - [**User Characteristics**](#user-characteristics)
+    - [**Constraints**](#constraints)
+    - [**Assumptions and dependencies**](#assumptions-and-dependencies)
+  - [Specific Requirements](#specific-requirements)
+  - [### **Functionality**](#h3-idfunctionality-209functionalityh3)
+      - [User Interface](#user-interface)
+      - [Scanning](#scanning)
+      - [REST API](#rest-api)
+      - [Notification Service](#notification-service)
+  - [### **Usability**](#h3-idusability-209usabilityh3)
+      - [Ease of use](#ease-of-use)
+      - [Fridge Management](#fridge-management)
+  - [### **Reliability**](#h3-idreliability-209reliabilityh3)
+      - [Code Coverage](#code-coverage)
+      - [Server Reliability](#server-reliability)
+  - [### **Performance**](#h3-idperformance-209performanceh3)
+      - [Registering Items](#registering-items)
+      - [Unregistering Items](#unregistering-items)
+  - [### **Supportability**](#h3-idsupportability-209supportabilityh3)
+      - [Coding Standards](#coding-standards)
+  - [### **Design Constraints**](#h3-iddesign-constraints-209design-constraintsh3)
+      - [MVC](#mvc)
+      - [Programming Languages](#programming-languages)
+  - [### **On-line User Documentation and Help System Requirements**](#h3-idon-line-user-documentation-and-help-system-requirements-209on-line-user-documentation-and-help-system-requirementsh3)
+  - [### **Purchased Components**](#h3-idpurchased-components-209purchased-componentsh3)
+  - [### **Interfaces**](#h3-idinterfaces-209interfacesh3)
+      - [User Interfaces](#user-interfaces)
+      - [**Hardware Interfaces**](#hardware-interfaces)
+      - [**Software Interfaces**](#software-interfaces)
+      - [**Communications Interfaces**](#communications-interfaces)
+  - [### **Licensing Requirements**](#h3-idlicensing-requirements-209licensing-requirementsh3)
+  - [### **Legal, Copyright, and Other Notices**](#h3-idlegal-copyright-and-other-notices-209legal-copyright-and-other-noticesh3)
+  - [### **Applicable Standards**](#h3-idapplicable-standards-209applicable-standardsh3)
+  - [Supporting Information](#supporting-information)
 
 # Software Requirements Specification
 
@@ -103,9 +108,9 @@ API is Transforming Healthcare". Springer, 2018\
 Here are documents and links which could be helpful to understand
 **Fridgify**:
 
-\[A\] Fridgify Blog: <https://fridgify.donkz.dev/>\
-\[B\] Fridgify GitHub: <https://github.com/DonkeyCo/Fridgify>\
-\[C\] UML-Diagram: [Google Drive](https://drive.google.com/file/d/1vWaFPm-F_uAU51sVGcWN9OgbxoCAegrX/view) OR [GitHub Blob](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/management/Overall%20Use%20Case%20Diagram.pdf)\
+\[A\] Fridgify Blog: <https://blog.fridgify.com/>\
+\[B\] Fridgify GitHub: <https://github.com/Fridgify>\
+\[C\] UML-Diagram: [Google Drive](https://drive.google.com/file/d/1PtSFhhHVe-l59GPKEeMMshzpPv89wig4/view) OR [GitHub Blob](https://github.com/Fridgify/Fridgify_Documentation/blob/master/use_cases/overall_ucd_v2.png)\
 \[D\] Authentication Explanation: [How Fridgify's Authentication works](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/uc/authentication/authentication_system.md)
 
 ### **Overview**
@@ -210,8 +215,7 @@ Via the mobile application users should be able to scan barcodes of
 items, which in turn registers them in the application. Scanning the
 item automatically adds all information to a local or central database
 for the user. Item information are stored in the database with the
-barcode.\
-Users can also scan expiration dates to keep track of their expiry.
+barcode.
 
 #### REST API
 
@@ -224,8 +228,7 @@ data.
 #### Notification Service
 
 The backend should send notifications to individual users. The
-notification service notifies users when an item is expiring, updating
-users of their current fridge status or empty items.
+notification service notifies users when an item is expiring.
 
 ### **Usability**
 -----------
@@ -250,7 +253,7 @@ change registered fridges with a maximum of 3 clicks.
 
 #### Code Coverage
 
-Via Unit Tests a code coverage of a minimum of 95% should be reached.
+Via Unit Tests a code coverage of a minimum of 80% should be reached.
 Reaching such a code coverage allows a very good reliability of both
 the frontend and backend.
 
@@ -299,9 +302,9 @@ and Dart. A PostgreSQL Database is used to store data.
 ### **On-line User Documentation and Help System Requirements**
 --------------
 
-Documentation for the API will be available soon on a dedicated web
-page. To be up to date with the newest development status, you can
-follow the [Fridgify Blog](https://fridgify.donkz.dev/).
+Documentation for the API is available for the [development](https://api-dev.fridgify.com/) and the [production](https://api.fridgify.com/) environment. To be up to date with the newest development status, you can
+follow the [Fridgify Blog](https://blog.fridgify.com/).
+Installation tutorials can be found in a [dedicated blog post](https://blog.fridgify.com/phase-2-week-9-installation/)
 
 ### **Purchased Components**
 --------------
@@ -318,19 +321,21 @@ The following components were purchased:\
 The following user interfaces are available:
 * iOS Application
 * Android Application
+* Website
 
 #### **Hardware Interfaces**
 
+These requirements will not be implemented but could be thought of. Implementation supports these features for future implementation. \
 Fridgify can be combined with Smart Home Systems, such as Alexa, Google Assistant, Siri.\
-The backend shall be used by a Raspberry Pi to register items. 
-These hardware interfaces can be implemented in the future.
+The backend can be used by a Raspberry Pi to register items. 
 
 #### **Software Interfaces**
 
 The application should be accessible from:\
 · Android Devices\
 · iOS Devices\
-· (Raspberry Pi \[Microcontrollers in general\])
+. Website\
+· *Possibly*:  (Raspberry Pi \[Microcontrollers in general\])
 
 #### **Communications Interfaces**
 
@@ -371,14 +376,14 @@ Manual security tests needs to be performed regulary.
 
 ## Supporting Information
 
-[UML Diagram - GitHub](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/management/Overall%20Use%20Case%20Diagram.pdf) - UML Diagram for Fridgify (static version - GitHub)
+[UML Diagram - GitHub](https://github.com/Fridgify/Fridgify_Documentation/blob/master/use_cases/overall_ucd_v2.png) - UML Diagram for Fridgify (static version - GitHub)
 
-[UML Diagram - Google Drive](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/management/Overall%20Use%20Case%20Diagram.pdf) - UML Diagram for Fridgify (dynamic version - Google Drive)
+[UML Diagram - Google Drive](https://github.com/Fridgify/Fridgify_Documentation/blob/master/use_cases/overallUseCaseDiagram.md) - UML Diagram for Fridgify (dynamic version - Google Drive)
 
-[Fridgify - Blog](https://fridgify.donkz.dev/) - The Fridgify Blog with
+[Fridgify - Blog](https://blog.fridgify.com/) - The Fridgify Blog with
 all news regarding Fridgify.
 
-[Fridgify - GitHub](https://github.com/DonkeyCo/Fridgify) - The
+[Fridgify - GitHub](https://github.com/Fridgify) - The
 Fridgify GitHub contains the source code.
 
 [Fridgify - Project Management](https://fridgify-tracking.donkz.dev) -
