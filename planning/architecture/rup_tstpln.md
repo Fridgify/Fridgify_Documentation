@@ -157,7 +157,7 @@ Regressions are determined through new code coverage runs for each update.
 #### 7.6.2	Additional Automated Functional Test Scripts
 **n/a**
 #### 7.6.3	Test Guidelines
-In general all testable code should be tested. Due to time constraint this is of course not always possible. Therefore we set a bound of at least 80%.
+In general all testable code should be tested. Due to time constraint this is of course not always possible. Therefore we set a bound of at least 70%.
 #### 7.6.4	Traceability Matrices
 **n/a**
 
