@@ -25,7 +25,9 @@
   - [Semester 2](#semester-2)
 - [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
 - [6 Process View](#6-process-view)
-- [7 Deployment View](#7-deployment-view)
+- [7 Deployment](#7-deployment)
+  - [7.1 Deployment View](#71-deployment-view)
+  - [7.2 Deployment Process](#72-deployment-process)
 - [8 Implementation View](#8-implementation-view)
 - [9 Data View](#9-data-view)
 - [10 Size and Performance](#10-size-and-performance)
@@ -102,11 +104,17 @@ Backend and frontend are being developed seperately, allowing them to live in a 
 Structuring files is very important to keep a good overview of a projects resources. That is why the backend stores model files in **Fridgify_Backend.model**, controllers and utilities in **Fridgify_Backend.utils**, views are stored in **Fridgify_Backend.views** and url information are stored in **Fridgify_Backend.api_urls**.\
 In the frontend views are stored in the **Fridgify.screens**.
 
+**Design Patterns**\
+Design Patterns in Fridgify's Backend and Frontend are explained [in this blog](https://blog.fridgify.com/phase-2-week-6-they-are-everywhere/). Essentially *decorators* and *modules* are being used.
+
 ## 6 Process View
 TBD
 
-## 7 Deployment View
+## 7 Deployment
+### 7.1 Deployment View
 ![Deployment View](./deployment.svg)
+### 7.2 Deployment Process
+![Deployment Process](./deployment_process.png)
 
 ## 8 Implementation View
 n/a
@@ -122,3 +130,9 @@ We are using TeamCity as Continuous Integration tool to ensure a high quality of
 Whenever there is a new change in the **master** branch, a new docker image is being created on Docker Hub, where tests are also been run. After a successful build, the changes are taken live to the production server.\
 Each development or production change should fulfill the following requirements:
 * Test Coverage: Fridgify aims for at least **70 percent** code coverage
+
+For tracking metrics we use Codacy. Codacy determines quality via code duplication, general issues, complexity of files and general code coverage.
+If you want to have a look at the dashboards:\
+
+**Frontend Dashboard**: https://app.codacy.com/gh/Fridgify/Fridgify_Frontend/dashboard\
+**Backend Dashboard**: https://app.codacy.com/gh/Fridgify/Fridgify_Backend/dashboard
