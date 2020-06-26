@@ -166,14 +166,14 @@ The following table sets forth the system resources for the test effort presente
 | Resource | Quantity | Name and Type |
 |---|---|---|
 | Production "Server" (API) <br/> | 1 | Debian Buster Server |
-| Server Name |  	| fridgapi.donkz.dev |
+| Server Name |  	| api.fridgify.com |
 | <hr> | <hr> | <hr> |
 | Development "Server" (API) | 1 | Debian Buster Server	|
-| Server Name |  | fridgapi-dev.donkz.dev |
+| Server Name |  | api-dev.fridgify.com |
 | <hr> | <hr> | <hr> |
 | Database | 2 | PostgreSQL |
-| Database Name |  | Production: PostgreSQL Fridgify_Backend_DB |
-| Database Name |  | Development: Fridgify_Backend_DB_Develop |
+| Database Name |  | Production: PostgreSQL fridgify_backend_db |
+| Database Name |  | Development: fridgify_backend_db_develop |
 | Database Name |  | sqlite on localhost |
 
 ### 9.2	Base Software Elements in the Test Environment
@@ -216,13 +216,16 @@ Human Resources
 | Implementer | 3 | Implements and unit tests the test classes and test packages.<br> Responsibilities include:<br> creates the test components required to support testability requirements as defined by the designer |
 
 ### 10.2	Staffing and Training Needs
-**n/a**
+* Flutter Basics/Advanced knowledge (Dennis, Joschua)
+* Django Basics/Advanced knowledge (Duc, Joschua)
+* Docker and docker-compose Basics (Joschua, Duc)
+
 ## 11.	Iteration Milestones
 
 | Milestone | Planned Start Date | Actual Start Date | Planned End Date | Actual End Date |
 |---|---|---|---|---|
-| Have Unit Tests | 01.04.2020 | since start of development | 4.6.2020 | **tbd**   |
-| 80% coverage | 12.5.2020 | **tbd**   | 4.6.2020   | **tbd**   |
+| Have Unit Tests | 01.04.2020 | since start of development | 4.6.2020 | 03.06.2020 |
+| 70% coverage | 12.5.2020 | 12.05.2020   | 4.6.2020   | 3.06.2020   |
 | Tests integrated in CI | 01.04.2020 | 01.04.2020 | 12.05.2020 | 12.05.2020 |
 
 
