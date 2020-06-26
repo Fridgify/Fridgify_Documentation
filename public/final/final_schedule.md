@@ -1,0 +1,20 @@
+- Vision - Dennis
+- Demo - Dennis
+- Use Cases 
+    - General - Dennis
+    - Risk Management - Dennis
+    - RUP / longterm planning - Duc
+    - FP - Duc
+    - Project management - Duc
+    - Scrumming on Youtrack / Iterative processes - Duc 
+    - Quality assurance – Duc 
+    - Patterns - Duc
+- Architecture 
+    - Project structure - Duc
+    - Class Diagram - Dennis / Duc 
+    - Repos – Git / Docker – Joschua
+    - Testing – Joschua
+    - Server environment – Joschua
+    - CI /CD – Automation – Joschua
+    - Metrics - Joschua
+    - Fridgify’s future - Dennis
