@@ -13,29 +13,28 @@
 
 |Project Management| |
 |---|---|
-|RUP gantt chart 	| asdasdasd |
-|Long-term planning FP-estimation	| asdadsasd |
-|Burn-down chart of sprint	| asdasdasd |
-|Retrospective Semester 1	| asdadsasd |
-|Retrospective Semester 2 	| asdasdasd |
-|FP calculation	| asdadsasd |
+|RUP gantt chart 	| [Cumulative Diagram](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/cumulative_diagram.png), [Gantt](https://fridgify-tracking.donkz.dev/reports/gantt/144-1), [Time](https://fridgify-tracking.donkz.dev/reports/time/135-1?line=issue) |
+|Long-term planning FP-estimation	| [Folder with FP things](https://github.com/Fridgify/Fridgify_Documentation/tree/master/planning/analysis) |
+|Burn-down chart of sprint	| [Chart 1](https://fridgify-tracking.donkz.dev/reports/burndown/133-5), [Chart 2](https://fridgify-tracking.donkz.dev/agiles/104-2/105-16?chart) |
+|Retrospective Semester 1	| [Retrospective 1](https://blog.fridgify.com/week-7-the-art-of-scrum-ii/) |
+|Retrospective Semester 2 	| [Retrospective 2](https://blog.fridgify.com/phase-2-week-8-the-art-of-scrum-iii/) |
+|FP calculation	| [Excel with values and charts](https://docs.google.com/spreadsheets/d/15ITkMB7w8aL5hJDDncJqJW3OL-zaxlj1dqkJcCas4pQ/edit#gid=207568332) |
 
 
 |Code Areas| |
 |---|---|
-|UC 	| asdasdasd |
-|SRS	| asdadsasd |
-|Test Cases (.feature files) 	| asdasdasd |
-|Test Log	| asdadsasd |
+|Frontend 	| [Code written by us](https://github.com/Fridgify/Fridgify_Frontend/tree/master/fridgify/lib) |
+|Frontend test	| [Unit](https://github.com/Fridgify/Fridgify_Frontend/tree/master/fridgify/test) |
+|Backend 	| [Code](https://github.com/Fridgify/Fridgify_Backend/tree/master/fridgify_backend) |
+|Backend test	| [Tests](https://github.com/Fridgify/Fridgify_Backend/tree/master/fridgify_backend/tests) |
 
 |Installation| |
 |---|---|
-|UC 	| asdasdasd |
-|SRS	| asdadsasd |
+|Blog 	| [By hopper](https://blog.fridgify.com/phase-2-week-9-installation/) |
 
 |Quality| |
 |---|---|
-|Architecture SAD 	| asdasdasd |
+|Architecture SAD 	| [Architectural Representation](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#2-architectural-representation), [Architectural Goals and Constraints](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#3-architectural-goals-and-constraints), [Architecturally Significant Design Packages](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#52-architecturally-significant-design-packages) |
 |Pattern in SAD	| asdadsasd |
 |Configuration/Environment SAD/Testplan 	| asdasdasd |
 |Metrics SAD	| asdadsasd |
