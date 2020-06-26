@@ -35,10 +35,9 @@
 |Quality| |
 |---|---|
 |Architecture SAD 	| [Architectural Representation](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#2-architectural-representation), [Architectural Goals and Constraints](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#3-architectural-goals-and-constraints), [Architecturally Significant Design Packages](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#52-architecturally-significant-design-packages) |
-|Pattern in SAD	| asdadsasd |
-|Configuration/Environment SAD/Testplan 	| asdasdasd |
-|Metrics SAD	| asdadsasd |
-|Risk Management  	| asdasdasd |
-|Automated Testing 	| asdadsasd |
-|Functional Test 	| asdasdasd |
-|Automatic Deployment | asdadsasd |
+|Pattern in SAD	| [Architecturally Significant Design Packages](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#52-architecturally-significant-design-packages) |
+|Metrics SAD	| [Quality/Metrics](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/rup_sad.md#11-qualitymetrics) |
+|Risk Management  	| [Risk Management Excel](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/risks/Risk_Management.xlsx) |
+|Automated Testing 	| [Blog entry about automation](https://blog.fridgify.com/phase-2-week-4-testing-and-badges/) |
+|Functional Test 	| [Folder with feature files](https://github.com/Fridgify/Fridgify_Frontend/tree/working/featurefiles/fridgify/test_driver/features) |
+|Automatic Deployment | [Picture](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/deployment_process.png), [Development](https://fridgify-tc.donkz.dev/buildConfiguration/Fridgify_DeployFridgifyDevelopment#all-projects), [Production](https://fridgify-tc.donkz.dev/buildConfiguration/Fridgify_DeployFridgifyProduction#all-projects) |

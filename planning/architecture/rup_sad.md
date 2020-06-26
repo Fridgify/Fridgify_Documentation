@@ -76,7 +76,7 @@ This document contains the Architectural Representation, Goals and Constraints a
 | Database | PostgreSQL |
 | Project Management | [YouTrack](https://fridgify-tracking.donkz.dev) |
 | Continiuous Integration | [TeamCity](https://fridgify-tc.donkz.dev) |
-| Version Control System | Git, [GitHub](https://github.com/DonkeyCo/Fridgify) |
+| Version Control System | Git, [GitHub](https://github.com/Fridgify) |
 
 ## 3 Architectural Goals and Constraints
 In the backend we decided to use Django. Django allows us to utilize MVC in an easy and comprehendible way. Database tables are mapped to models, which are controlled by controllers, called handlers in our case, and are presented as HTTP and JSON responses.\
