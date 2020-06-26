@@ -17,4 +17,4 @@
     - Server environment – Joschua (0:30)
     - CI /CD – Automation – Joschua (1:30)
     - Metrics - Joschua (0:30)
-- Conclusion (1) - Joschua
+- Conclusion - Joschua (1)
