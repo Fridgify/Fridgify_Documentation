@@ -147,7 +147,12 @@ Parts of the above features are already integrated into the GitHub environment.
 Regressions are determined through new code coverage runs for each update.
 ### 7.6	Additional Work Products
 #### 7.6.1	Detailed Test Results
-tbd
+|| |
+|---|---|
+|Frontend 	| [Tests frontend](https://fridgify-tc.donkz.dev/buildConfiguration/Fridgify_TestFrontend#all-projects) |
+| 	| [Test log frontend](https://github.com/Fridgify/Fridgify_Documentation/blob/master/planning/architecture/test_logs/frontend.md) |
+|Backend 		| [Tests backend](https://hub.docker.com/repository/docker/fridgify/fridgify/builds) |
+| 		| [Test log backend](https://github.com/Fridgify/Fridgify_Documentation/tree/master/planning/architecture/test_logs/backend.md) |
 
 #### 7.6.2	Additional Automated Functional Test Scripts
 **n/a**
