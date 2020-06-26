@@ -25,35 +25,35 @@
     - [Constraints](#constraints)
     - [Assumptions and dependencies](#assumptions-and-dependencies)
   - [Specific Requirements](#specific-requirements)
-  - [Functionality](#functionality)
+  - [### Functionality](#h3-idfunctionality-274functionalityh3)
       - [User Interface](#user-interface)
       - [Scanning](#scanning)
       - [REST API](#rest-api)
       - [Notification Service](#notification-service)
-  - [Usability](#usability)
+  - [### Usability](#h3-idusability-274usabilityh3)
       - [Ease of use](#ease-of-use)
       - [Fridge Management](#fridge-management)
-  - [Reliability](#reliability)
+  - [### Reliability](#h3-idreliability-274reliabilityh3)
       - [Code Coverage](#code-coverage)
       - [Server Reliability](#server-reliability)
-  - [Performance](#performance)
+  - [### Performance](#h3-idperformance-274performanceh3)
       - [Registering Items](#registering-items)
       - [Unregistering Items](#unregistering-items)
-  - [Supportability](#supportability)
+  - [### Supportability](#h3-idsupportability-274supportabilityh3)
       - [Coding Standards](#coding-standards)
-  - [Design Constraints](#design-constraints)
+  - [### Design Constraints](#h3-iddesign-constraints-274design-constraintsh3)
       - [MVC](#mvc)
       - [Programming Languages](#programming-languages)
-  - [On-line User Documentation and Help System Requirements](#on-line-user-documentation-and-help-system-requirements)
-  - [Purchased Components](#purchased-components)
-  - [Interfaces](#interfaces)
+  - [### On-line User Documentation and Help System Requirements](#h3-idon-line-user-documentation-and-help-system-requirements-274on-line-user-documentation-and-help-system-requirementsh3)
+  - [### Purchased Components](#h3-idpurchased-components-274purchased-componentsh3)
+  - [### Interfaces](#h3-idinterfaces-274interfacesh3)
       - [User Interfaces](#user-interfaces)
       - [Hardware Interfaces](#hardware-interfaces)
       - [Software Interfaces](#software-interfaces)
       - [Communications Interfaces](#communications-interfaces)
-  - [Licensing Requirements](#licensing-requirements)
-  - [Legal, Copyright, and Other Notices](#legal-copyright-and-other-notices)
-  - [Applicable Standards](#applicable-standards)
+  - [### Licensing Requirements](#h3-idlicensing-requirements-274licensing-requirementsh3)
+  - [### Legal, Copyright, and Other Notices](#h3-idlegal-copyright-and-other-notices-274legal-copyright-and-other-noticesh3)
+  - [### Applicable Standards](#h3-idapplicable-standards-274applicable-standardsh3)
   - [Supporting Information](#supporting-information)
 
 # Software Requirements Specification
@@ -255,7 +255,7 @@ change registered fridges with a maximum of 3 clicks.
 
 #### Code Coverage
 
-Via Unit Tests a code coverage of a minimum of 80% should be reached.
+Via Unit Tests a code coverage of a minimum of 70% should be reached.
 Reaching such a code coverage allows a very good reliability of both
 the frontend and backend.
 
