@@ -17,6 +17,7 @@
   - [1.4 References](#14-references)
   - [1.5 Overview](#15-overview)
 - [2 Architectural Representation](#2-architectural-representation)
+  - [Technology Stack](#technology-stack)
 - [3 Architectural Goals and Constraints](#3-architectural-goals-and-constraints)
 - [4 Use-Case View](#4-use-case-view)
   - [4.1 Use-Case Realizations](#41-use-case-realizations)
@@ -66,6 +67,16 @@ This document contains the Architectural Representation, Goals and Constraints a
 
 ## 2 Architectural Representation
 ![Architectural Representation](./architecture.png)
+
+### Technology Stack
+| Field of Development | Technologies |
+| ------------ | ------------ |
+| Backend | Python 3.7.4, unittest, Django 2.2, Docker, docker-compose, Firebase |
+| Frontend | Flutter 1.9 (Test Framework integrated), Firebase |
+| Database | PostgreSQL |
+| Project Management | [YouTrack](https://fridgify-tracking.donkz.dev) |
+| Continiuous Integration | [TeamCity](https://fridgify-tc.donkz.dev) |
+| Version Control System | Git, [GitHub](https://github.com/DonkeyCo/Fridgify) |
 
 ## 3 Architectural Goals and Constraints
 In the backend we decided to use Django. Django allows us to utilize MVC in an easy and comprehendible way. Database tables are mapped to models, which are controlled by controllers, called handlers in our case, and are presented as HTTP and JSON responses.\

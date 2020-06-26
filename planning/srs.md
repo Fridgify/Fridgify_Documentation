@@ -24,36 +24,37 @@
     - [User Characteristics](#user-characteristics)
     - [Constraints](#constraints)
     - [Assumptions and dependencies](#assumptions-and-dependencies)
+    - [Technology Stack](#technology-stack)
   - [Specific Requirements](#specific-requirements)
-  - [### Functionality](#h3-idfunctionality-274functionalityh3)
+  - [### Functionality](#h3-idfunctionality-309functionalityh3)
       - [User Interface](#user-interface)
       - [Scanning](#scanning)
       - [REST API](#rest-api)
       - [Notification Service](#notification-service)
-  - [### Usability](#h3-idusability-274usabilityh3)
+  - [### Usability](#h3-idusability-309usabilityh3)
       - [Ease of use](#ease-of-use)
       - [Fridge Management](#fridge-management)
-  - [### Reliability](#h3-idreliability-274reliabilityh3)
+  - [### Reliability](#h3-idreliability-309reliabilityh3)
       - [Code Coverage](#code-coverage)
       - [Server Reliability](#server-reliability)
-  - [### Performance](#h3-idperformance-274performanceh3)
+  - [### Performance](#h3-idperformance-309performanceh3)
       - [Registering Items](#registering-items)
       - [Unregistering Items](#unregistering-items)
-  - [### Supportability](#h3-idsupportability-274supportabilityh3)
+  - [### Supportability](#h3-idsupportability-309supportabilityh3)
       - [Coding Standards](#coding-standards)
-  - [### Design Constraints](#h3-iddesign-constraints-274design-constraintsh3)
+  - [### Design Constraints](#h3-iddesign-constraints-309design-constraintsh3)
       - [MVC](#mvc)
       - [Programming Languages](#programming-languages)
-  - [### On-line User Documentation and Help System Requirements](#h3-idon-line-user-documentation-and-help-system-requirements-274on-line-user-documentation-and-help-system-requirementsh3)
-  - [### Purchased Components](#h3-idpurchased-components-274purchased-componentsh3)
-  - [### Interfaces](#h3-idinterfaces-274interfacesh3)
+  - [### On-line User Documentation and Help System Requirements](#h3-idon-line-user-documentation-and-help-system-requirements-309on-line-user-documentation-and-help-system-requirementsh3)
+  - [### Purchased Components](#h3-idpurchased-components-309purchased-componentsh3)
+  - [### Interfaces](#h3-idinterfaces-309interfacesh3)
       - [User Interfaces](#user-interfaces)
       - [Hardware Interfaces](#hardware-interfaces)
       - [Software Interfaces](#software-interfaces)
       - [Communications Interfaces](#communications-interfaces)
-  - [### Licensing Requirements](#h3-idlicensing-requirements-274licensing-requirementsh3)
-  - [### Legal, Copyright, and Other Notices](#h3-idlegal-copyright-and-other-notices-274legal-copyright-and-other-noticesh3)
-  - [### Applicable Standards](#h3-idapplicable-standards-274applicable-standardsh3)
+  - [### Licensing Requirements](#h3-idlicensing-requirements-309licensing-requirementsh3)
+  - [### Legal, Copyright, and Other Notices](#h3-idlegal-copyright-and-other-notices-309legal-copyright-and-other-noticesh3)
+  - [### Applicable Standards](#h3-idapplicable-standards-309applicable-standardsh3)
   - [Supporting Information](#supporting-information)
 
 # Software Requirements Specification
@@ -194,6 +195,18 @@ One assumption about the product is that it will be used on mobile
 devices, which have the necessary computing power. If the phone does not
 have enough hardware resources available for the application, there may
 be scenarios where the application is not working properly.
+
+### Technology Stack
+
+| Field of Development | Technologies |
+| ------------ | ------------ |
+| Backend | Python 3.7.4, unittest, Django 2.2, Docker, docker-compose, Firebase |
+| Frontend | Flutter 1.9 (Test Framework integrated), Firebase |
+| Database | PostgreSQL |
+| Project Management | [YouTrack](https://fridgify-tracking.donkz.dev) |
+| Continiuous Integration | [TeamCity](https://fridgify-tc.donkz.dev) |
+| Version Control System | Git, [GitHub](https://github.com/DonkeyCo/Fridgify) |
+
 
 ## Specific Requirements
 
