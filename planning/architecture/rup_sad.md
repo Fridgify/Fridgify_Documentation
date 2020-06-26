@@ -21,6 +21,8 @@
 - [4 Use-Case View](#4-use-case-view)
   - [4.1 Use-Case Realizations](#41-use-case-realizations)
 - [5 Logical View](#5-logical-view)
+  - [Semester 1](#semester-1)
+  - [Semester 2](#semester-2)
 - [5.2 Architecturally Significant Design Packages](#52-architecturally-significant-design-packages)
 - [6 Process View](#6-process-view)
 - [7 Deployment View](#7-deployment-view)
@@ -69,7 +71,7 @@ Our frontend is developed in Flutter, which allows an easy way to distribute our
 Backend and frontend are being developed seperately, allowing them to live in a *separate eco-system* and being independent from one another.
 
 ## 4 Use-Case View
-![Overall Use Case Diagram](https://github.com/Fridgify/Fridgify_Documentation/blob/master/use_cases/overall_ucd_v2.png)
+![Overall Use Case Diagram](https://raw.githubusercontent.com/Fridgify/Fridgify_Documentation/master/use_cases/overall_ucd_v2.png)
 
 ### 4.1 Use-Case Realizations
 * [Use Case - Register](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/uc/authentication/register.md)
@@ -84,10 +86,17 @@ Backend and frontend are being developed seperately, allowing them to live in a 
 * [Use Case - Change Content Volume](https://github.com/DonkeyCo/Fridgify/blob/documentation/documentation/uc/fridgeContent/changeContentVolume/changeContentVolume.md)
 
 ## 5 Logical View
+### Semester 1
 **Frontend Logical View:**
 ![Frontend Logical View](./frontend_uml_mvc.svg)
 **Backend Logical View:**
 ![Backend Logical View](./backend_uml_mvc.svg)
+
+### Semester 2
+**Frontend Logical View:**
+![Frontend Logical View](./frontend_uml_mvc_2nd.png)
+**Backend Logical View:**
+![Backend Logical View](./backend_uml_mvc_2nd.svg)
 
 ## 5.2 Architecturally Significant Design Packages
 Structuring files is very important to keep a good overview of a projects resources. That is why the backend stores model files in **Fridgify_Backend.model**, controllers and utilities in **Fridgify_Backend.utils**, views are stored in **Fridgify_Backend.views** and url information are stored in **Fridgify_Backend.api_urls**.\
@@ -112,4 +121,4 @@ n/a
 We are using TeamCity as Continuous Integration tool to ensure a high quality of code and automize the deployment process. Whenever there is a new change in the **develop** branch, tests are automatically run and tested. If the tests run through, they are taken *live* to the development server.\
 Whenever there is a new change in the **master** branch, a new docker image is being created on Docker Hub, where tests are also been run. After a successful build, the changes are taken live to the production server.\
 Each development or production change should fulfill the following requirements:
-* Test Coverage: Fridgify aims for at least **80 percent** code coverage
+* Test Coverage: Fridgify aims for at least **70 percent** code coverage
